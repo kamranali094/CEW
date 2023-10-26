@@ -1,23 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-void main(){
-int n;
-printf("Input Number of Rows:");
-scanf("%d",&n);
-int spac = n-1;
-for(int i=1;i<=n;i++){
-for(int j=spac;j>=0;j--){
-        printf(" ");
-    }
-for(int k=1;k<=i;k++){
-    printf("* ");
-}
-printf("\n");
-spac--;
+
+int main()
+{
+    float height,width;
+    printf("Enter the Height:");
+    scanf("%f",&height);
+    printf("Enter the Width:");
+    scanf("%f",&width);
+    printf("Parimeter of reactangle is %.2f\n",2*(height+width));
+    printf("Area of reactangle is %.2f",(height*width));
+    return 0;
 }
 
-
-}
 
 
 
