@@ -10,6 +10,7 @@ int main()
     printf("Enter total hours worked in this month:");
     scanf("%f",&hrsworked);
     printf("The total salary of the Employee(ID = %d): Rs %.2f",empID,salary_per_hour * hrsworked);
+    return 0;
 
 
 }
